@@ -36,6 +36,8 @@ The breakthrough occurred by exploiting the gap between the **AI Monitor** and t
 * **Mechanism:** The AI sees `s\u\d\o` as a safe string. The Bash interpreter strips the backslashes and executes `sudo`.
 * **Result:** Successful leak of the `/etc/shadow` file.
 
+![Shadow File Leak Proof](./796078961.903323public.png)
+
 ---
 
 ## 4. Persistent Takeover and Analysis
